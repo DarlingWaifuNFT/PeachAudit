@@ -5,8 +5,6 @@ import "./support/safemath.sol";
 contract PeachStorage {
     using SafeMath for uint256;
     mapping(address => uint256) private balances;
-    mapping(address => uint256) private locked;
-    mapping(address => uint256) private claimed;
     mapping(address => mapping(address => uint256)) allowances;
     mapping(address => mapping(uint256 => uint256)) expenditures;
 
