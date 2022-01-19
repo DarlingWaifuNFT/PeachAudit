@@ -43,7 +43,7 @@ Game: Will not be affected by taxes
 Owner: will be renounced
 Support: for maintenance tasks
 Oracle: for financial settings
-Manager: Peach, the only capable address of making non-maintenance transactions
+Manager: Peach contract, the only address capable of making non-maintenance transactions
 
 ## **Events**:
 - Transfer
@@ -102,6 +102,8 @@ Manager: Peach, the only capable address of making non-maintenance transactions
 
 # Considerations:
 **The current price is multiplied by 1000 due to the lack of decimals.**
+
+**Every transaction counts towards the limit for liquidity extraction, not just extractions themselves.**
 
 **These functions give percentages as results:**
 - Big commission formula (x is total USD):
